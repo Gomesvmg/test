@@ -26,11 +26,6 @@ function med(a, b, c) {
     return res;
 }
 
-function square(num) {
-    res = num * num;
-    return res;
-}
-
 function med4(a, b, c, d) {
     res = (a + b + c + d) / 4;
     return res;
