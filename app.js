@@ -30,3 +30,9 @@ function med4(a, b, c, d) {
     res = (a + b + c + d) / 4;
     return res;
 }
+
+let carro = {
+    modelo: "Hilux",
+    ano: 2017,
+    cor: "Preto"
+}
