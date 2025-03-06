@@ -36,3 +36,19 @@ let carro = {
     ano: 2017,
     cor: "Preto"
 }
+
+let produto = {
+    nome: "Notebook Gamer",
+    preco: 6500,
+    estoque: 50,
+    categoria: "Tecnologia"
+}
+produto.desconto = "20%"
+
+function exibirProduto() {
+    Object.entries(produto).forEach(([info,valor]) => {
+        console.log(`${id}: ${value}`)
+    })
+}
+
+exibirProduto()
